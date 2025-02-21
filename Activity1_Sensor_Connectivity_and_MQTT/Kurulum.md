@@ -66,7 +66,7 @@ Ve hesabınıza giriş yapın.
 </div>
 <br />
 
-# 5-A) U5 Paketinin Kurulumu
+# 4-A) U5 Paketinin Kurulumu
 Uygulamalarda STM32U5 ailesinden bir mikrodenetleyici kullanılacağı için U5 paketlerinin indirilmesi gereklidir.<br />
 Öncelikle STM32CubeIDE programını başlatınız.
 
@@ -83,7 +83,7 @@ Ardından **STM32Cube MCU Packages** sekmesi altında **STM32U5->STM32Cube MCU P
 </div>
 <br />
 
-# 5-B) X-CUBE-ISPU Yazılım Paketi Kurulumu 
+# 4-B) X-CUBE-ISPU Yazılım Paketi Kurulumu 
 X-CUBE-ISPU yazılım paketinin yüklenmesi için STM32CubeIDE uygulaması içerisinde **Help** sekmesi altında **Configuration Tools** seçeneğinin yanındaki **Manage Embedded Software Packages** seçeneğine tıklayınız.
 <br />
 <div align="center">
@@ -98,21 +98,4 @@ Açılan ekranda yukarıdaki sekmelerden STMicroelectronics seçilir. Ardından 
   <img width="100%" height="100%" src="Additionals/ispu_install.png">
 </div>
 <br />
-
-# 5-C) X-CUBE-AI Yazılım Paketi Kurulumu 
-X-CUBE-AI yazılım paketinin yüklenmesi için STM32CubeIDE uygulaması içerisinde **Help** sekmesi altında **Configuration Tools** seçeneğinin yanındaki **Manage Embedded Software Packages** seçeneğine tıklayınız.
-<br />
-<div align="center">
-  <img width="100%" height="100%" src="Additionals/manage_embedded_software_packages.png">
-</div>
-<br />
-
-Açılan ekranda yukarıdaki sekmelerden STMicroelectronics seçilir. Ardından paketlerden X-CUBE-AI paketi seçilir. Ve **10.0.0 versiyonunun** (son sürüm) yanındaki kutucuk işaretlenir. Ve install'a tıklanarak indirme işlemi başlatılır. Yükleme işlemi sırasında kullanıcı girişinin yapılmış olması ve lisans anlaşmasının kabul edilmesi gerekmektedir. Paketin yüklenme işlemi tamamlanmıştır.
-
-<br />
-<div align="center">
-  <img width="100%" height="100%" src="Additionals/cubeai_package.png">
-</div>
-<br />
-
 Gerekli kurulumlar tamamlanmıştır.
