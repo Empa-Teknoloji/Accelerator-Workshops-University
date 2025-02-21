@@ -53,7 +53,7 @@ Github [sayfasından](https://github.com/TeraTermProject/teraterm/releases) Asse
 </div>
 
 <br />
-Ardından açılan ekranda **Enter myST account information seçeneğine tıklayın.
+Ardından açılan ekranda **Enter myST account information seçeneğine** tıklayın.
 <div align="center">
   <img width="100%" height="100%" src="Additionals/myst_connection.png">
 </div>
