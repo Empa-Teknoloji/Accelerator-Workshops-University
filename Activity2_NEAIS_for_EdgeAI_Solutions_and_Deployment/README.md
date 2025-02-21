@@ -13,7 +13,7 @@ Bu kılavuz, NanoEdge AI Studio kullanılarak geliştilecek "El Karakteri Sını
 NanoEdge AI Studio programının kurulum adımlarını içerir.
 
 ## Uygulama
-### ↳ [NEAIS İle Edge-AI Çözümleri: El Karakteri Sınıflandırma](Uygulama.md)
+### ↳ [NEAIS ile Uçta Yapay Zeka Çözümleri: El Karakteri Tanıma](Uygulama.md)
 Aktivite içeriği olan "uçta yapay zeka" uygulamasının geliştirme adımlarını içerir.
 
 ## NanoEdge AI Studio
