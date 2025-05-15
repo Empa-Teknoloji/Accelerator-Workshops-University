@@ -4,7 +4,7 @@
 </p>
 
 # Etkinlik Öncesi Yapılacaklar & Kurulumlar
-Bu dokümantasyonda etkinlik öncesi gerekli programların ve paketlerin kurulumları anlatılacaktır. Kurulumu gerekli program ve paketler şu şekildedir:
+Empa Electronics tarafından düzenlenen Accelerators Workshops University etkinliğimize hoş geldiniz. Bu dokümantasyonda etkinlik öncesi gerekli programların ve paketlerin kurulumları anlatılacaktır. Kurulumu gerekli program ve paketler şu şekildedir:
 
 1. [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)
 2. [STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html)

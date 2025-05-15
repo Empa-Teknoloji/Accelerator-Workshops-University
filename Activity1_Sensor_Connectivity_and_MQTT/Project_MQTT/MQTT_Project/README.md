@@ -1,9 +1,13 @@
+<p align="center">
+    <img src="../../Additionals/Empa-Accelerator-Workshops-Template-Banner.jpg" alt="Accelerator Workshops" 
+    style="display: block; margin: 0 auto"/>
+</p>
 
 ## İçindekiler
 1. [Demo 1: Sensor Tutorial Demo](#sensor-tutorial-demo)
 2. [Demo 2: MQTT Demo](#mqtt-aws-demo)
    
-# Sensor Tutorial Demo
+# 1. Sensor Tutorial Demo
 
 Tanım: Bu demo, Mindboard üzerindeki sensörlerin başlangıç (initialization) ve veri işleme (process) işlemleri ile sensörlerden veri toplar ve bu verileri seri terminal üzerinden görüntüler.Tanım: Bu demo, Mindboard üzerindeki sensörlerin başlangıç (initialization) ve veri işleme (process) işlemleri ile sensörlerden veri toplar ve bu verileri seri terminal üzerinden görüntüler.
 
@@ -32,7 +36,7 @@ yorum satırları arasındaki
 ```
 tanımlarının yorum satırına alınması gerekmektedir. Bu işlem, satırların başına "//" ifadeleri eklenerek yapılabilir.
 
-# MQTT AWS DEMO
+# 2. MQTT AWS DEMO
 
 Tanım: Bu demo, Mindboard üzerindeki sıcaklık ve nem sensöründen verileri alır ve bu verileri, AWS tabanlı HiveMQ MQTT Broker'ına 5 saniyede bir gönderir.
 

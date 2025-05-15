@@ -4,8 +4,7 @@
 </p>
 
 # 1) Sensör Bağlanabilirliği ve MQTT
-Empa Electronics tarafından düzenlenen Accelerator Workshops serimizin "Hacettepe Üniversitesi Uçta Yapay Zeka Çalıştayı" adımına hoş geldiniz.
-Bu kılavuz, modern makine öğrenimi kütüphaneleri ve standart yaklaşımlarla geliştilecek "Uçtan Uca MQTT Veri Toplayıcı" uygulamamızın geliştirme adımlarında size rehberlik edecektir.
+Empa Electronics tarafından düzenlenen Accelerators Workshops University etkinliğimize hoş geldiniz. Bu kılavuz, modern makine öğrenimi kütüphaneleri ve standart yaklaşımlarla geliştilecek "Uçtan Uca MQTT Veri Toplayıcı" uygulamamızın geliştirme adımlarında size rehberlik edecektir.
 
 ## Kurulum
 Öncelikle, aşağıdaki bağlantıyı kullanarak çalışma ortamı kurulum adımlarını takip ediniz.
