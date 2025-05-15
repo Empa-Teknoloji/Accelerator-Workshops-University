@@ -3,18 +3,11 @@
     style="display: block; margin: 0 auto"/>
 </p>
 
+# 3) NanoEdge AI Studio ile Edge-AI Çözümleri Geliştirme
+Empa Electronics tarafından düzenlenen Accelerators Workshops University etkinliğimize hoş geldiniz. Bu kılavuzda, 'El Karakterleri Tanıma' uygulamamızı geliştirmek için gerekli yazılımların Windows ve Ubuntu işletim sistemlerinde kurulum adımlarını ele alacağız. Kurulum adımları; NanoEdge AI Studio, STM32CubeIDE, STM32CubeProgrammer, TeraTerm ve ilgili yazılım paketlerini içerecektir.
 
+## Kurulum
 
-
-
-# Etkinlik Öncesi Yapılacaklar & Kurulumlar
-Bu dokümantasyonda etkinlik öncesi gerekli programların ve paketlerin kurulumları anlatılacaktır. Kurulumu gerekli program ve paketler şu şekildedir:
-
-1. [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)
-2. [STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html)
-3. [TeraTerm](https://github.com/TeraTermProject/teraterm/releases)
-4. SW Paketleri
-5. NanoEdge AI Studio
 
 ## 1- STM32CubeIDE Kurulumu
 
@@ -104,13 +97,12 @@ Açılan ekranda yukarıdaki sekmelerden STMicroelectronics seçilir. Ardından 
 </div>
 <br />
 
-# 5) NanoeEdge AI Studio
+# 5) NanoEdge AI Studio
 
 **Bu kısımda, NanoEdge AI Studio'nun Windows ve Ubuntu işletim sistemleri için kurulum adımlarını ele alacağız.**
 
-## Kurulum
 
-**Windows** ve **Ubuntu** için NEAIS aşağıdaki linkten indirilebilir.
+**Windows** ve **Ubuntu** için NEAIS aşağıdaki linkten indirilip kurulum yapılabilir. MacOS için henüz bir destek bulunmamakta olup, çeşitli *Virtual Windows/Ubuntu Machine* yöntemleri (Parallels Desktop gibi) alternatif yöntemler kullanılabilir.
 
 **[https://stm32ai.st.com/download-nanoedgeai/](https://stm32ai.st.com/download-nanoedgeai/)**
 

@@ -3,9 +3,8 @@
     style="display: block; margin: 0 auto"/>
 </p>
 
-# 2) NanoEdge AI Studio ile Uçta Yapay Zeka Çözümleri Geliştirme
-Empa Electronics tarafından düzenlenen Accelerator Workshops serimizin "Hacettepe Üniversitesi Uçta Yapay Zeka Çalıştayı" adımına hoş geldiniz.
-Bu kılavuz, NanoEdge AI Studio kullanılarak geliştilecek "El Karakteri Sınıflandırma" uygulamamızın geliştirme adımlarında size rehberlik edecektir.
+# 3) NanoEdge AI Studio ile Edge-AI Çözümleri Geliştirme
+Empa Electronics tarafından düzenlenen Accelerators Workshops University etkinliğimize hoş geldiniz. Bu kılavuz, NanoEdge AI Studio kullanılarak geliştilecek "El Karakterleri Tanıma" uygulamamızın geliştirme ve kurulum adımlarında size rehberlik edecektir.
 
 ## Kurulum
 Öncelikle, aşağıdaki bağlantıyı kullanarak çalışma ortamı kurulum adımlarını takip ediniz.
@@ -13,13 +12,14 @@ Bu kılavuz, NanoEdge AI Studio kullanılarak geliştilecek "El Karakteri Sını
 NanoEdge AI Studio programının kurulum adımlarını içerir.
 
 ## Uygulama
-### ↳ [NEAIS ile Uçta Yapay Zeka Çözümleri: El Karakteri Tanıma](Uygulama.md)
+### ↳ [NEAIS İle Edge-AI Çözümleri: El Karakteri Sınıflandırma](Uygulama.md)
 Aktivite içeriği olan "uçta yapay zeka" uygulamasının geliştirme adımlarını içerir.
 
 ## NanoEdge AI Studio
 
 **1- NEAIS Nedir?**
-- **Cartesiam** tarafından geliştirilmiş ve **STMicroelectronics** tarafından **ücretsiz** şekilde sunulmuş bir **Auto-ML** uygulamasıdır. Kullanıcıların, minimum AI bilgisi ile, **MCU** ve **ISPU** donanımları için özelleştirilmiş uygulamalar geliştirmelerini kolaylaştırır.
+- **Gömülü sistem mühendislerinin**, minimum AI bilgisi ile, gereksinimleri için ideal AI modelini zahmetsizce bulmalarını sağlar.
+- İlk olarak **Cartesiam** (şimdi **ST**'ye ait) tarafından gömülü C yazılımı çalıştıran MCU'lar için geliştirilmiştir.
 
 **2- Nasıl çalışır?**
 - PC'de **yerel olarak** çalışır,
@@ -35,15 +35,15 @@ Aktivite içeriği olan "uçta yapay zeka" uygulamasının geliştirme adımlar�
 **4- Özellikler**
 - **ML uzmanlığı** gerektirmez.
 - MCU hafızasını **verimli** kullanır.
-- MCU ve ISPU'ların üzerinde çalışmak için optimize edilmiştir.
+- MCU'ların üzerinde çalışmak için optimize edilmiştir.
 
 **5- Genel Adımlar**
-- Proje ayarlarını yapılandır
+- Proje ayarlarını yapılandırma
 - Sinyalleri içe aktar
 - **Benchmark** uygula
 - Kütüphaneler (modeller) **bul ve karşılaştır**
 - Kütüphaneleri **test et**
-- **MCU veya ISPU'ya göm**
+- **MCU'ya göm**
 
 **6- Benchmark Adımları**
 - Sinyal **ön işleme**
@@ -54,15 +54,16 @@ Aktivite içeriği olan "uçta yapay zeka" uygulamasının geliştirme adımlar�
 - **Data Logger (DL)**
 - **Data Manipulation (DM)**
 - **Sampling Finder (SF)**
+- **Feature Importance (FI)**
 
 **8- Modeller**
-- **Anomaly Detection (AD)**
+- **Detect Anomalies (AD)**
     - "Modellerin hedef ortama kendiliğinden uyum sağlamalarını ve anormallikleri kendiliğinden tespit etmelerini istiyorum."
-- **1-Class Sınıflandırma (1CC)**
+- **Detect Outliers (O)**
     - "Herhangi bir aykırı değeri tespit etmek istiyorum."
-- **n-Class Sınıflandırma (nCC)**
+- **Classify (C)**
     - "Hangi sorunların meydana geldiğini isim isim bilmek istiyorum."
-- **Extrapolation (E)**
+- **Extrapolate (E)**
     - "Düzeltici eylemler için zaman kazanmak amacıyla titreşim seviyesini önceden tahmin etmek istiyorum."
 
 **Kaynaklar & Okuma Önerileri** 
