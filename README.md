@@ -6,7 +6,7 @@
 
 ## Accelerator Workshops'a Hoş Geldiniz!
 
-**Merhaba!**
+**Merhaba!**  
 Empa Electronics tarafından düzenlenen Accelerators Workshops University etkinliğimize hoş geldiniz. Bu açık-kaynaklı repository, workshop etkiliğimizde kullanabileceğiniz tüm gereksinimleri edinebilmeniz ve aktivitelere kolaylıkla eşlik edebilmeniz için sizinle paylaşılmıştır.
 
 **Sensörler & Connectivity**  
