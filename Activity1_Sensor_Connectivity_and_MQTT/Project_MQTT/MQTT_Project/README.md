@@ -1,11 +1,11 @@
 <p align="center">
-    <img src="../../Additionals/Empa-Accelerator-Workshops-Template-Banner.jpg" alt="Accelerator Workshops" 
+    <img src="../../../Additionals/Empa-Accelerator-Workshops-Template-Banner.jpg" alt="Accelerator Workshops" 
     style="display: block; margin: 0 auto"/>
 </p>
 
 ## İçindekiler
-1. [Demo 1: Sensor Tutorial Demo](#sensor-tutorial-demo)
-2. [Demo 2: MQTT Demo](#mqtt-aws-demo)
+- [1. Sensor Tutorial Demo](#1-sensor-tutorial-demo)
+- [2. MQTT AWS DEMO](#2-mqtt-aws-demo)
    
 # 1. Sensor Tutorial Demo
 
