@@ -113,26 +113,33 @@ void EMPA_SensorPrint(void) {
 	//Print End
 
 	//SHT40 Print Start
-	printf("\nTemperature : %0.2f C Humidity : %0.2f\r\n",
-			temperature / 1000.0f, humidity / 1000.0f);
+	printf("========== SHT40 (Temperature & Humidity) ==========\n");
+	printf("Temperature : %.2f C\n", temperature / 1000.0f);
+	printf("Humidity    : %.2f %%\n\n", humidity / 1000.0f);
 	//SHT40 Print End
 
 	//ISM330IS Print Start
-	printf("\nACC X: %ld  ACC Y: %ld ACC Z: %ld\r\n", imu_sensor_data.acc.x,
-			imu_sensor_data.acc.y, imu_sensor_data.acc.z);
-	printf("\nGYRO X: %ld  GYRO Y: %ld GYRO Z: %ld\r\n", imu_sensor_data.gyro.x,
-			imu_sensor_data.gyro.y, imu_sensor_data.gyro.z);
+	printf("========== ISM330IS (Accelerometer) ==========\n");
+	printf("ACC X: %ld\n", imu_sensor_data.acc.x);
+	printf("ACC Y: %ld\n", imu_sensor_data.acc.y);
+	printf("ACC Z: %ld\n\n", imu_sensor_data.acc.z);
+
+	printf("========== ISM330IS (Gyroscope) ==========\n");
+	printf("GYRO X: %ld\n", imu_sensor_data.gyro.x);
+	printf("GYRO Y: %ld\n", imu_sensor_data.gyro.y);
+	printf("GYRO Z: %ld\n\n", imu_sensor_data.gyro.z);
 	//ISM330IS Print End
 
 	//IMP34DT05 Print Start
-	printf("MICROPHONE RAW DATA\n");
-	uint32_t bufferSize = REC_BUFF_SIZE * 2;
+	printf("========== IMP34DT05 (Microphone Raw Data) ==========\n");
+	uint32_t bufferSize = REC_BUFF_SIZE;
 
     for(int i=0; i<bufferSize; i++)
     {
     	printf("%d ",RecBuff[i]);
     }
 	//IMP34DT05 Print End
+    HAL_Delay(500);
 }
 
 uint8_t sht40_sensor_process(int32_t *temp, int32_t *hum) {

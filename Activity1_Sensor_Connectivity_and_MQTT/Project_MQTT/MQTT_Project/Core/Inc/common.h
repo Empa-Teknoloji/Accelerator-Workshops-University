@@ -22,15 +22,15 @@ extern TIM_HandleTypeDef htim1;
 
 #define TMR_ONESECOND                           &htim1
 
-#define WIFI_SSID                               "Airties_tc"
-#define WIFI_PASSWORD                           "tcsjklm.1"
+#define WIFI_SSID                               "EMPA_ARGE_4G"
+#define WIFI_PASSWORD                           "Empa1982"
 
 
 #define MQTT_CLIENT_ID                          ""
 #define MQTT_USERNAME                           ""
 #define MQTT_PASSWORD                           ""
 #define MQTT_KEEP_ALIVE_TIME                    60                      // in seconds
-#define MQTT_BROKER_ADDRESS                     "cf25e86f3af44eda80893f20d071f69c.s1.eu.hivemq.cloud"
+#define MQTT_BROKER_ADDRESS                     "bed9ff2f1d494c18b5ef64b17f482ce5.s1.eu.hivemq.cloud"
 
 
 
