@@ -30,9 +30,9 @@ LibFiles=Drivers\STM32U5xx_HAL_Driver\Inc\stm32u5xx_hal_i2c.h;Drivers\STM32U5xx_
 
 [ThirdPartyIp]
 ThirdPartyIpNumber=1
-ThirdPartyIpName#0=STMicroelectronics.X-CUBE-ISPU.2.0.0
+ThirdPartyIpName#0=STMicroelectronics.X-CUBE-ISPU.2.1.0
 
-[ThirdPartyIp#STMicroelectronics.X-CUBE-ISPU.2.0.0]
+[ThirdPartyIp#STMicroelectronics.X-CUBE-ISPU.2.1.0]
 header=Drivers\BSP\Components\ism330is\ism330is_reg.h;Drivers\BSP\Components\ism330is\ism330is.h;
 source=Drivers\BSP\Components\ism330is\ism330is_reg.c;Drivers\BSP\Components\ism330is\ism330is.c;
 
